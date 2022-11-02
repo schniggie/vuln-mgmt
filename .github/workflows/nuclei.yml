@@ -1,0 +1,9 @@
+- name: Nuclei - Vulnerability Scan
+  uses: projectdiscovery/nuclei-action@main
+  with:
+    target: https://example.com
+
+- name: GitHub Security Dashboard Alerts
+  uses: github/codeql-action/upload-sarif@v2
+  with:
+    sarif_file: nuclei.sarif
