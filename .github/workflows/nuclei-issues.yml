@@ -14,7 +14,7 @@ jobs:
         with:
           target: https://example.com
           github-report: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TOKEN }}
 
       - name: GitHub Workflow artifacts
         uses: actions/upload-artifact@v2
