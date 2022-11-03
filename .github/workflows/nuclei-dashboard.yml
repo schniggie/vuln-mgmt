@@ -1,4 +1,4 @@
-name: Nuclei - Vulnerability Scan
+name: Nuclei - Vulnerability Scan with Security Dashboard
 
 on:
     workflow_dispatch:
