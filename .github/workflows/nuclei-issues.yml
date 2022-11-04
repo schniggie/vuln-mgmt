@@ -15,7 +15,7 @@ jobs:
           target: https://www.bsi.bund.de/
           github-report: true
           github-token: ${{ secrets.TOKEN }}
-          flags: "-severity critical,high,medium -stats
+          flags: "-severity critical,high,medium -stats"
 
       - name: GitHub Workflow artifacts
         uses: actions/upload-artifact@v2
