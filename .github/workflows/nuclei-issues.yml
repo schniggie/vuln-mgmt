@@ -12,7 +12,7 @@ jobs:
       - name: Nuclei - Vulnerability Scan
         uses: projectdiscovery/nuclei-action@main
         with:
-          target: https://example.com
+          target: https://www.bsi.bund.de/
           github-report: true
           github-token: ${{ secrets.TOKEN }}
           flags: "-severity critical,high,medium -stats
